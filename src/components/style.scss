@@ -1,0 +1,13 @@
+@import '../assets/style/mixin.scss';
+.img{
+    width: 48%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @include screen(690px){
+        width: 100%;
+    }
+    
+}

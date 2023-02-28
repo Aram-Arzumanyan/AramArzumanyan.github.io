@@ -1,0 +1,26 @@
+@import "../assets//style/mixin.scss";
+@import "../assets/style/variables.scss";
+
+.services {
+  width: 90%;
+  margin-left: 33%;
+  padding-top: 64px;
+ 
+  @include screen(1024px){
+    padding: 20vh 0;
+    margin: 0;
+
+  }
+
+  hr {
+    width: 8%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: $colorRed;
+    border: none;
+    margin: 20px 0;
+  }
+  p{
+    font-size: 24px;
+  }
+}

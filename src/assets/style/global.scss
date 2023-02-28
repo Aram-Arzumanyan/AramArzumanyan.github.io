@@ -1,0 +1,33 @@
+@import './mixin.scss';
+@import'./variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.G-container{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.y{
+    background-color: rgb(56, 56, 10);
+}
+
+.r{
+    background-color:rgb(196, 49, 49)
+}
+.p{
+    background-color: rgb(151, 119, 124);
+}
+
+.d{
+    background-color: rgb(54, 78, 78);
+}
+.c{
+    background-color: rgba(10, 63, 32,);
+}
